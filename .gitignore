@@ -1,0 +1,15 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 模型权重（体积大，不入库）
+*.pkl
+*.pth
+
+# 虚拟环境
+venv/
+.venv/
+
+# 系统文件
+.DS_Store
