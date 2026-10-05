@@ -69,15 +69,14 @@ math-ocr-api/
 
 ## 📌 部署前必读
 
-1. **模型权重**：代码会加载权重文件（`model_weights.pkl` 或类似），仓库未包含 → 需自行放入并从原项目训练/导出。【待确认具体文件名】
+1. **模型权重**：代码会加载权重文件（`model_weights.pkl` 或类似），仓库未包含 → 需自行放入并从原项目训练/导出。
 2. **依赖清单**：目前无 `requirements.txt`，部署到 Render 前必须补充（Render 靠它装依赖）。
-3. **启动命令**：Render 需配置启动命令（如 `gunicorn api_server:app` 或 `python api_server.py`）【待确认你采用的方案】。
-4. **目录扁平化**：文件目前在嵌套子目录里，建议移动到仓库根目录后部署，路径更清晰（见结构改进建议）。
+3. **启动命令**：Render 需配置启动命令（如 `gunicorn api_server:app` 或 `python api_server.py`）。
+
 
 ## ⚠️ 相关仓库
 
 - 主项目：[Handwritten-mathematical-formula-recognition](https://github.com/LLLLLZ-529/Handwritten-mathematical-formula-recognition)
-- 另一个 API 部署版（建议归档）：`-coze-`
 
 ## 📄 许可
 
